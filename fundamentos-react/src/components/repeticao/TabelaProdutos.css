@@ -1,0 +1,16 @@
+.TabelaProdutos {
+    width: 100%;
+    color: aliceblue;
+}
+
+.TabelaProdutos thead {
+    background-color: rgb(72, 44, 44);
+}
+
+.TabelaProdutos .impar {
+    background-color: rgb(99, 85, 67);
+}
+
+.TabelaProdutos .par {
+    background-color: rgb(37, 31, 25);
+}

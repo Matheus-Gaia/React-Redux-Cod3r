@@ -5,12 +5,29 @@ import Aleatorio from "./components/basicos/Aleatorio";
 import Familia from "./components/basicos/Familia";
 import FamiliaMembro from "./components/basicos/FamiliaMembro";
 import Card from "./components/layout/Card";
+import ListaAlunos from "./components/repeticao/ListaAlunos";
+import TabelaProdutos from "./components/repeticao/TabelaProdutos";
+import ParOuImpar from "./components/condicional/ParOuImpar";
+
 
 const App = () => {
   return (
     <div className="App">     
       <h1>Fundamentos React</h1>
         <div className="Cards">
+      
+          <Card titulo="#07 - Renderização Condicional" color="#707B7C"> 
+              <ParOuImpar numero={20}/>
+          </Card>
+
+          <Card titulo="#06 - Repetição" color="#CACFD2"> 
+              <TabelaProdutos/>
+          </Card>
+
+          <Card titulo="#05 - Repetição" color="#909497"> 
+              <ListaAlunos/>
+          </Card>
+
           <Card titulo="#04 - Componente Filho" color="#707B7C"> 
               <Familia sobrenome="Ferreira">
                   <FamiliaMembro nome="Matheus"/>
