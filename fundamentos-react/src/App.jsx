@@ -9,6 +9,10 @@ import ListaAlunos from "./components/repeticao/ListaAlunos";
 import TabelaProdutos from "./components/repeticao/TabelaProdutos";
 import ParOuImpar from "./components/condicional/ParOuImpar";
 import Usuario from "./components/condicional/Usuario";
+import DiretaPai from "./components/comunicacao/DiretaPai";
+import IndiretaPai from "./components/comunicacao/IndiretaPai";
+import Input from "./components/formulario/Input";
+import Contador from "./components/contador/Contador";
 
 
 const App = () => {
@@ -17,6 +21,22 @@ const App = () => {
       <h1>Fundamentos React</h1>
         <div className="Cards">
       
+          <Card titulo="#11 - Contador" color="#CACFD0"> 
+              <Contador numeroInicial={10}/>
+          </Card>
+          
+          <Card titulo="#10 - Componente Controlado" color="#CACFD0"> 
+              <Input/>
+          </Card>
+          
+          <Card titulo="#09 - Comunicação Indireta" color="#707B7C"> 
+              <IndiretaPai/>
+          </Card>
+
+          <Card titulo="#08 - Comunicação Direta" color="#909497"> 
+              <DiretaPai/>
+          </Card>
+
           <Card titulo="#07 - Renderização Condicional" color="#707B7C"> 
               <ParOuImpar numero={20}/>
               <Usuario usuario={{nome: "Fernando"}}/>
