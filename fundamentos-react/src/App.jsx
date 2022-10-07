@@ -13,6 +13,7 @@ import DiretaPai from "./components/comunicacao/DiretaPai";
 import IndiretaPai from "./components/comunicacao/IndiretaPai";
 import Input from "./components/formulario/Input";
 import Contador from "./components/contador/Contador";
+import DesafioMega from "./components/mega/DesafioMega";
 
 
 const App = () => {
@@ -21,6 +22,10 @@ const App = () => {
       <h1>Fundamentos React</h1>
         <div className="Cards">
       
+          <Card titulo="#11 - Desafio Mega-Sena" color="#CACFD0"> 
+              <DesafioMega />
+          </Card>
+
           <Card titulo="#11 - Contador" color="#CACFD0"> 
               <Contador numeroInicial={10}/>
           </Card>

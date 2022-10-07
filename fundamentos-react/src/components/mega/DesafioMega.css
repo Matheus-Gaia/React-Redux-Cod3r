@@ -1,0 +1,26 @@
+.Mega input {
+    margin-left: 5px;
+    width: 32px;
+}
+
+.numero {
+    background-color: #19195a;
+    margin: 5px;
+    color: aliceblue;
+    display: inline-block;
+    width: 30px;
+    border-radius: 50%;
+}
+
+button {
+    margin-top: 2px;
+    height: 30px;
+    background-color: #19195a;
+    color: aliceblue;
+    font-weight: 900;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #555588;
+}
