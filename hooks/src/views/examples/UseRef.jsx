@@ -16,6 +16,7 @@ const UseRef = (props) => {
         let string2 = [...s2]
 
         let result = string1.map((el, i) => [el, string2[i]].flat())
+        
         return result
     }
 
